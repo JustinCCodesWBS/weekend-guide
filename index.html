@@ -8,31 +8,62 @@
     </head>
 
     <body>
-        <h1>Stadtführer fürs Wochenende</h1>
-        <p>Entdecke die Stadt an zwei Tagen</p>
 
-        <h2>Tipps fürs Wochenende</h2>
-        <ul>
-            <li>Stadtmuseum</li>
-            <li>Spaziergang am Fluss</li>
-        </ul>
+        <header>
+            <h1>Stadtführer fürs Wochenende</h1>
+            <p>Entdecke die Stadt an zwei Tagen.</p>
+        </header>
 
-        <img src="images/guide.svg" alt="Ein Weg führt am Fluss vorbei" width="640" height="420">
+        <nav>
+            <ul>
+                <li><a href="#highlights">Tipps fürs Wochenende</a></li>
+                <li><a href="#interests">Verrate uns, was dich interessiert</a></li>
+                <li><a href="details.html">Aktivitätsdetails ansehen</a></li>
+            </ul>
+        </nav>
 
-        <p>
-            <a href="https://www.openstreetmap.org/">Stadtplan auf Openstreetmap ansehen</a>
-        </p>
+        <main>
+            <section id="highlights">
+                <h2>Tipps fürs Wochenende</h2>
+                <article>
+                    <h3>Stadtmuseum</h3>
+                    <p>Beginne den Vormittag im Stadtmuseum und entdecke die Geschichte der Stadt.</p>
+                </article>
+                <article>
+                    <h3>Spaziergang am Fluss</h3>
+                    <p>Entspanne dich am Nachmittag bei einem Spaziergang am Fluss.</p>
+                </article>
+                <aside>
+                    <h3>Planungstipp</h3>
+                    <p>Nimm einen Regenschirm mit.</p>
+                </aside>
+            </section>
 
-        <p>
-            <a href="details.html">Aktivitätsdetails ansehen</a>
-        </p>
+            <section>
+                <figure>
+                    <img src="images/guide.svg" alt="Ein Weg am Fluss führt in Richtung der Stadtgebäude" width="640" height="426">
+                    <figcaption>Der Weg am Fluss führt in Richtung Stadtzentrum.</figcaption>
+                </figure>
 
-        <h2>Verrate uns, was dich interessiert</h2>
-        <form>
-            <label for="interest">Dein Interesse fürs Wochenende</label>
-            <input id="interest" type="text" name="name" placeholder="Interesse...">
-            <button type="submit">Interesse senden</button>
-        </form>
+                <p>
+                    <a href="https://www.openstreetmap.org/">Stadtplan auf OpenStreetMap ansehen</a>
+                </p>
+            </section>
+
+            <section id="interests">
+                <h2>Verrate uns, was dich interessiert</h2>
+                <form>
+                    <label for="interest">Dein Interesse fürs Wochenende</label>
+                    <input id="interest" type="text" name="name" placeholder="Dein Interesse …">
+                    <button type="submit">Interesse senden</button>
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <p>Wähle die Aktivitäten aus, die dich interessieren, und entdecke die Stadt am Wochenende.</p>
+        </footer>
+
     </body>
 
 </html>
